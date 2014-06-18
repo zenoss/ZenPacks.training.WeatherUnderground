@@ -65,7 +65,7 @@ class Locations(PythonPlugin):
 
             for result in response['RESULTS']:
                 rm.append(self.objectMap({
-                    'id': self.prepId(result['l']),
+                    'id': self.prepId(result['zmw']),
                     'title': result['name'],
                     'api_link': result['l'],
                     'country_code': result['c'],
@@ -76,8 +76,4 @@ class Locations(PythonPlugin):
 
     def process(self, device, results, log):
         """Process results. Return iterable of datamaps or None."""
-        if results is None:
-            return None
-
-        log.info("%s: processing data", device.id)
         return results

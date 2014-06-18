@@ -1,0 +1,215 @@
+{
+    "alerts": [
+        {
+            "StormBased": {},
+            "ZONES": [
+                {
+                    "ZONE": "057",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "047",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "022",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "034",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "045",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "021",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "014",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "044",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "059",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "003",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "004",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "046",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "058",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "036",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "016",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "024",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "032",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "005",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "001",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "013",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "002",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "015",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "020",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "023",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "033",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "012",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "035",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "006",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "031",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "025",
+                    "state": "IA"
+                }
+            ],
+            "date": "1:03 PM CDT on June 16, 2014",
+            "date_epoch": "1402941780",
+            "description": "Tornado Watch",
+            "expires": "8:00 PM CDT on June 16, 2014",
+            "expires_epoch": "1402966800",
+            "message": "\nTornado Watch 302 remains in effect until 800 PM CDT for the \nfollowing locations\n\n\nIA \n. Iowa counties included are\n\nAudubon Boone Buena Vista \nCalhoun Carroll Cherokee \nClay Crawford Dallas \nDickinson Emmet Greene \nGuthrie Hamilton Hancock \nHumboldt Ida Kossuth \nLyon O'Brien Osceola \nPalo Alto Plymouth Pocahontas \nSAC Sioux Webster \nWinnebago Woodbury Wright \n\n\n\n\n",
+            "phenomena": "TO",
+            "significance": "A",
+            "type": "TOW",
+            "tz_long": "America/Chicago",
+            "tz_short": "CDT"
+        },
+        {
+            "StormBased": {
+                "Vertex_count": 7,
+                "stormInfo": {
+                    "Motion_deg": 236,
+                    "Motion_spd": 24,
+                    "position_lat": 41.72,
+                    "position_lon": -95.52,
+                    "time_epoch": 1402942020
+                },
+                "vertices": [
+                    {
+                        "lat": "42.19",
+                        "lon": "-95.06"
+                    },
+                    {
+                        "lat": "41.76",
+                        "lon": "-94.81"
+                    },
+                    {
+                        "lat": "41.73",
+                        "lon": "-95.09"
+                    },
+                    {
+                        "lat": "41.86",
+                        "lon": "-95.10"
+                    },
+                    {
+                        "lat": "41.86",
+                        "lon": "-95.64"
+                    },
+                    {
+                        "lat": "41.92",
+                        "lon": "-95.67"
+                    },
+                    {
+                        "lat": "41.95",
+                        "lon": "-95.68"
+                    }
+                ]
+            },
+            "ZONES": [
+                {
+                    "ZONE": "057",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "045",
+                    "state": "IA"
+                },
+                {
+                    "ZONE": "044",
+                    "state": "IA"
+                }
+            ],
+            "date": "1:07 PM CDT on June 16, 2014",
+            "date_epoch": "1402942020",
+            "description": "Severe Thunderstorm Warning",
+            "expires": "2:15 PM CDT on June 16, 2014",
+            "expires_epoch": "1402946100",
+            "message": "\nThe National Weather Service in Des Moines has issued a\n\n* Severe Thunderstorm Warning for...\n southern Crawford County in west central Iowa...\n western Carroll County in west central Iowa...\n northwestern Audubon County in west central Iowa...\n\n* until 215 PM CDT\n\n* at 107 PM CDT...a severe thunderstorm was located 6 miles southwest\n of Earling...or 22 miles southwest of Denison...moving northeast at\n 25 mph.\n\n Hazard...half dollar size hail. \n\n Source...radar indicated. \n\n Impact...damage to vehicles is expected. \n\n* Locations impacted include...\n Denison...Manning...Dunlap...Manilla...Dow City...Arcadia...Vail...\n Templeton...Westside...Halbur...Arion...gray...Buck Grove...\n Aspinwall...Denison Municipal Airport and Manning Municipal\n Airport.\n\nPrecautionary/preparedness actions...\n\nA Tornado Watch remains in effect for the warned area. Tornadoes can\ndevelop quickly from severe thunderstorms. Although a tornado is not\nimmediately likely...if one is spotted...act quickly and move to a\nplace of safety inside a sturdy structure...such as a basement or\nsmall interior room.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTo report severe weather contact your nearest law enforcement agency.\nThey will send your report to the National Weather Service office in\nDes Moines .\n\n\nA Tornado Watch remains in effect until 800 PM CDT Monday evening for\nnorthwest Iowa.\n\nLat...Lon 4219 9506 4176 9481 4173 9509 4186 9510\n 4186 9564 4192 9567 4195 9568\ntime...Mot...loc 1807z 236deg 24kt 4172 9552 \n\nHail...1.25in\nwind...<50mph\n\n\nRev\n\n\n",
+            "phenomena": "SV",
+            "significance": "W",
+            "type": "WRN",
+            "tz_long": "America/Chicago",
+            "tz_short": "CDT"
+        }
+    ],
+    "query_zone": "057",
+    "response": {
+        "features": {
+            "alerts": 1
+        },
+        "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+        "version": "0.1"
+    }
+}

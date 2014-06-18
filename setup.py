@@ -8,7 +8,7 @@ AUTHOR = "Chet Luther <cluther@zenoss.com>"
 LICENSE = "GPLv2"
 NAMESPACE_PACKAGES = ['ZenPacks', 'ZenPacks.training']
 PACKAGES = ['ZenPacks', 'ZenPacks.training', 'ZenPacks.training.WeatherUnderground']
-INSTALL_REQUIRES = []
+INSTALL_REQUIRES = ['ZenPacks.zenoss.PythonCollector>=1.3']
 COMPAT_ZENOSS_VERS = ""
 PREV_ZENPACK_NAME = ""
 # STOP_REPLACEMENTS
