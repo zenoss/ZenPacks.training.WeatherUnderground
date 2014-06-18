@@ -3,6 +3,11 @@
   targetPythonClass: ZenPacks.training.WeatherUnderground.WundergroundLocation
 
   datasources:
+    alerts:
+      type: Python
+      plugin_classname: ZenPacks.training.WeatherUnderground.dsplugins.Alerts
+      cycletime: "600"
+
     conditions:
       type: Python
       plugin_classname: ZenPacks.training.WeatherUnderground.dsplugins.Conditions
@@ -21,11 +26,6 @@
         wind_kph: GAUGE
         wind_gust_kph: GAUGE
         visibility_km: GAUGE
-
-    alerts:
-      type: Python
-      plugin_classname: ZenPacks.training.WeatherUnderground.dsplugins.Alerts
-      cycletime: "600"
 
   graphs:
     Temperatures:
