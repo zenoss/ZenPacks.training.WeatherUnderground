@@ -12,6 +12,9 @@ import time
 from twisted.internet.defer import inlineCallbacks, returnValue
 from twisted.web.client import getPage
 
+# Zenoss Plugins
+from Products.DataCollector.plugins.DataMaps import ObjectMap
+
 # PythonCollector Imports
 from ZenPacks.zenoss.PythonCollector.datasources.PythonDataSource import (
     PythonDataSourcePlugin,
@@ -101,6 +104,14 @@ class Conditions(WundergroundPlugin):
 
             dpname = '_'.join((datasource.datasource, datapoint_id))
             data['values'][datasource.component][dpname] = (value, 'N')
+
+        data['maps'].append(
+            ObjectMap({
+                'relname': 'wundergroundLocations',
+                'modname': 'ZenPacks.training.WeatherUnderground.WundergroundLocation',
+                'id': datasource.component,
+                'weather': current_observation['weather'],
+                }))
 
 
 class Alerts(WundergroundPlugin):

@@ -38,6 +38,11 @@ CFG = zenpacklib.ZenPackSpec(
                     'order': 4.1,
                 },
 
+                'weather': {
+                    'label': 'Weather',
+                    'order': 4.2,
+                },
+
                 'api_link': {
                     'label': 'API Link',
                     'order': 4.9,
