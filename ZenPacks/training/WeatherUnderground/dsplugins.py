@@ -33,7 +33,7 @@ class WundergroundPlugin(PythonDataSourcePlugin):
             context.device().id,
             datasource.getCycleTime(context),
             context.id,
-            'wunderground-{tag}'.format(cls.TAG),
+            'wunderground-{tag}'.format(tag=cls.TAG),
             )
 
     @classmethod
